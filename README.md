@@ -3,11 +3,10 @@
 <img src="https://img.shields.io/badge/license-Unlicensed-blue" alt="Unlicensed">   
 
 ## Description
-
+In this project we had to create for a tech blog to write about all of the up and coming technology for web development. I created the config folder to contatin the connection to the database. The controller folder contains all of the routes for the website as well as the api routes. The db folder contains the schema that creats the database that needs to be created. The models folder contain the structure of the sql created by sequlize. The public folder contains all of the javascript and css that the website will use. The seeds folder is what is used to create the test data for the website. The utils folder contains the auth method to only allow specific users to change post and user data. The folder also contains the helpers file to pluralize the coments word. The last folder veiws contains all of the html for the website in handlebar files. The files is divide between layout which the navigation bar for the whole website, Partials which will be used to add the post and comments and the different webpages them selfes. the last file I had to create was the server file which is used to create the port set up the handlebars.
 
 ## Table of Contents
   * [Installation](#installation)
-  * [Contributions](#contributions)
   * [Usage](#usage)
   * [License](#license)
   * [Contact-Info](#contact-info)
@@ -18,10 +17,10 @@ Node must be installed please go to https://nodejs.org/en/ to install node.
 After node is installed simply type “npm Install” to install all of the necessary packages needed for this project.
 
 
-## Contributions
-
-
 ## Usage
+
+To reset the table and create new data for an example simply type "npm run seed". Note: this reset the table and clear any data inputed.
+The Tech Blog is a blog site where members can create article about the up and coming technology and new resources in web development. users can also leave comments on post to further the conversation.
 
 
 ## License
