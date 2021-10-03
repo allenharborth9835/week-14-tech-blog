@@ -1,9 +1,10 @@
 const router = require('express').Router();
 const sequelize = require('../config/connection');
+const checkId = require('../utils/checkId');
 const { Post, User, Comment} = require('../models');
 
 // get all posts for homepage
-router.get('/', (req, res) => {
+router.get('/', checkId ,(req, res) => {
   console.log('======================');
   Post.findAll({
     attributes: [

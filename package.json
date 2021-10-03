@@ -10,7 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allenharborth9835/week-14-tech-blog.git"
+    "url": "git+https://github.com/allenharborth9835/week-14-tech-blog.git",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
